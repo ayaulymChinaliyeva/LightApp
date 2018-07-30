@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/myProjectsOrganization"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_bottom_nav_org1"
+        android:title="My projects"/>
+    <item
+        android:id="@+id/myApplicantsOrganization"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_botton_nav_org2"
+        android:title="My applicants"/>
+    <item
+        android:id="@+id/myProfileOrganization"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_bottom_nav_org3"
+        android:title="My profile"/>
+
+</menu>

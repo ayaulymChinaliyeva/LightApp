@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/projects"
+        android:enabled="true"
+        android:icon="@drawable/ic_bnav_auth_vol2"
+        app:showAsAction = "ifRoom"
+        android:title="Projects"/>
+    <item
+        android:id="@+id/rankings"
+        android:enabled="true"
+        android:icon="@drawable/ic_bnav_auth_vol1"
+        app:showAsAction = "ifRoom"
+        android:title="Rankings"
+        />
+    <item
+        android:id="@+id/profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_bnav_auth_vol3"
+        app:showAsAction = "ifRoom"
+        android:title="Profile"/>
+
+
+</menu>

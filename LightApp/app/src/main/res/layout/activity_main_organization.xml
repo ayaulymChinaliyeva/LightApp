@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kz.lightapp.lightapp.Volunteer.UnauthorizedVolunteerMainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container_organization">
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottom_navigation_organization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:textAlignment="center"
+            app:itemBackground="@color/toolBar"
+            app:itemIconTint="@drawable/bottom_navigation_drawable"
+            app:itemTextColor="@drawable/bottom_navigation_drawable"
+            app:menu="@menu/bottom_navigation_organization_menu" />
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/registerButton"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/styleButton"
+                android:text="Register Event"
+                android:textColor="@color/background"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="277dp" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

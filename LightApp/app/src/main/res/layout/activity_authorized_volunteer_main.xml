@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kz.lightapp.lightapp.Volunteer.AuthorizedVolunteerMainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container_authVol">
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottom_navigation_authVol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            app:itemBackground="@color/toolBar"
+            app:itemIconTint="@drawable/bottom_navigation_drawable"
+            app:itemTextColor="@drawable/bottom_navigation_drawable"
+            app:menu="@menu/bottom_navigation_authorized_volunteer" />
+    </FrameLayout>
+
+</RelativeLayout>
